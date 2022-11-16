@@ -10,6 +10,7 @@ export default function InboxScreen() {
   // The useEffect triggers the data fetching when the component is mounted
   useEffect(() => {
     dispatch(fetchTasks());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (error) {
