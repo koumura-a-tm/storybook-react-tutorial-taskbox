@@ -26,5 +26,5 @@ yarn-error.log*
 # log
 build-storybook.log
 
-# local env file
-.env.local
+# env file
+.env
